@@ -15,3 +15,15 @@
 ###回避策
 
 ![](https://github.com/4D-JP/4d-tips-listbox-header-border/blob/master/result.png)
+
+4Dのコマンドを活用し，ヘッダーと本体の間に罫線を表示することにより，境界を強調することができます。
+
+* 使用するコマンド
+
+[OBJECT SET RGB COLORS](http://doc.4d.com/4dv15r/help/command/ja/page628.html), ``Background color none`` (v14) 
+
+[OBJECT SET COORDINATES](http://doc.4d.com/4dv15r/help/command/ja/page1248.html) (v14)
+
+[LISTBOX Get information](http://doc.4d.com/4dv15r/help/command/ja/page917.html)
+
+[PLATFORM PROPERTIES](http://doc.4d.com/4dv15r/help/command/ja/page365.html)
