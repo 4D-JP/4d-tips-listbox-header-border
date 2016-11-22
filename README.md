@@ -10,7 +10,7 @@
 
 ![](https://github.com/4D-JP/4d-tips-listbox-header-border/blob/master/screenshot.png)
 
-これは，Windows 10のデザインで「リストヘッダーはホワイト一色」と決められているためであり，**4Dの不具合ではありません**。
+リストのヘッダーをどのように表示するかは，Windowsが決めることであり，**これは4Dの不具合ではありません**。
 
 ###回避策
 
