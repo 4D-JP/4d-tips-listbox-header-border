@@ -27,3 +27,38 @@
 [LISTBOX Get information](http://doc.4d.com/4dv15r/help/command/ja/page917.html)
 
 [PLATFORM PROPERTIES](http://doc.4d.com/4dv15r/help/command/ja/page365.html)
+
+####プラトフォームの特定
+
+OSのタイプ（WindowsまたはmacOS）とバージョンは``PLATFORM PROPERTIES``で調べることができます。
+
+```
+C_LONGINT($platform;$system)
+PLATFORM PROPERTIES($platform;$system)
+
+If ($platform=Windows)
+
+$version:="<!--#4dtext $1-->.<!--#4dtext $2-->"
+PROCESS 4D TAGS($version;$version;$system%256;($system\256)%256)
+
+Case of 
+: ($version="6.0")
+  //vista
+: ($version="6.1")
+  //7
+: ($version="6.2")
+  //8
+: ($version="6.3")
+  //8.1
+: ($version="10.0")
+  //latest:10
+$doIt:=True
+Else 
+  //unknown
+$doIt:=True
+End case 
+
+End if 
+```
+
+Windowsのバージョンコードは，数値（Windows 10であれば``10``，8.1であれば）が返されます。Windows Vistaから8.1まではすべてメジャーバージョン番号が``6``なので，これを文字列に変換する必要があるかもしれません。計算方法は，``PLATFORM PROPERTIES``のドキュメントに掲載されています。
