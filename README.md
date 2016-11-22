@@ -54,10 +54,8 @@ Case of
   //8.1
 : ($version="10.0")
   //latest:10
-$doIt:=True
 Else 
   //unknown
-$doIt:=True
 End case 
 
 End if 
