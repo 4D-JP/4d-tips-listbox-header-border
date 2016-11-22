@@ -30,7 +30,7 @@
 
 [PLATFORM PROPERTIES](http://doc.4d.com/4dv15r/help/command/ja/page365.html)
 
-####プラトフォームの特定
+####プラットフォームの特定
 
 OSのタイプ（WindowsまたはmacOS）とバージョンは``PLATFORM PROPERTIES``で調べることができます。
 
