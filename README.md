@@ -16,7 +16,7 @@
 
 ![](https://github.com/4D-JP/4d-tips-listbox-header-border/blob/master/result.png)
 
-4Dのコマンドを活用し，ヘッダーと本体の間に罫線を表示することにより，境界を強調することができます。
+4Dのコマンドを活用し，ヘッダーと本体の間にラインを表示して境界を強調することができます。
 
 * 使用するコマンド
 
